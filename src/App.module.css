@@ -6,6 +6,16 @@ strong {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .lovePhotos img {
+    height: 5rem;
+    border-radius: 16px;
+  }
+}
+
 .declarationLove {
   display: flex;
   flex-direction: column;
