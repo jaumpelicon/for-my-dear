@@ -3,8 +3,7 @@ name: Deploy Vite React App with Yarn
 on:
   push:
     branches:
-      - main # Adjust if your default branch is different
-
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
