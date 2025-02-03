@@ -41,7 +41,7 @@ const Timer = () => {
         <strong>{time.hours}</strong> horas, <strong>{time.minutes}</strong>{" "}
         minutos, <strong>{time.seconds}</strong> segundos
       </p>
-      <h3>de muitooooo amor 💕❤️😍</h3>
+      <h3>Todo esse tempo vivido com muitooooo amor 💕❤️😍</h3>
 
       {/* <p>
         <strong>{time.years}</strong> anos
