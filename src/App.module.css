@@ -8,11 +8,22 @@ strong {
 
 @media (max-width: 768px) {
   html {
-    font-size: 87.5%;
+    font-size: 70%;
   }
+  .lovePhotos {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0;
+  }
+
   .lovePhotos img {
-    height: 5rem;
-    border-radius: 16px;
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .plus {
+    align-self: center;
   }
 }
 
@@ -25,10 +36,19 @@ strong {
 .lovePhotos {
   display: flex;
   gap: 4rem;
+  margin: 4rem 4rem;
   justify-content: center;
-  margin-bottom: -4rem;
 }
 
+.personSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4rem;
+  justify-content: center;
+}
+.personSection p {
+  text-align: center;
+}
 .lovePhotos img {
   height: 30rem;
   border-radius: 16px;
@@ -52,4 +72,8 @@ strong {
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+}
+
+footer {
+  margin-bottom: 4rem;
 }

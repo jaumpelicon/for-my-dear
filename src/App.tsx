@@ -15,11 +15,25 @@ function App() {
         <strong>You are my forever love</strong>
       </header>
       <div className={styles.lovePhotos}>
-        <img className={styles.squarePhoto} src={hePicture} />
-        <Plus size={32} className={styles.plus} />
-        <img className={styles.heartPhoto} src={usPicture} />
-        <Plus size={32} className={styles.plus} />
-        <img className={styles.squarePhoto} src={shePicture} />
+        <div className={styles.personSection}>
+          <img className={styles.squarePhoto} src={hePicture} />
+          <p>
+            João Carlos Peliçon um menino sonhador e completamente apaixonado em
+            sua companheira que acredita que irá conquistar o mundo ao lado de
+            sua dama
+          </p>
+        </div>
+        <div className={styles.personSection}>
+          <img className={styles.heartPhoto} src={usPicture} />
+          <p>Juntos são o maior casal que já existiu 😍💕</p>
+        </div>
+        <div className={styles.personSection}>
+          <img className={styles.squarePhoto} src={shePicture} />
+          <p>
+            Maria Eduarda Colman uma garota incrível e completamente apaixonada
+            em seu companheiro que o auxilia a crescer e conquistar o mundo
+          </p>
+        </div>
       </div>
       <footer>
         <Timer />
