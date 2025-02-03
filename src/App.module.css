@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+
+strong {
+  text-align: center;
+}
+
+.declarationLove {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem 4rem;
+}
+.lovePhotos {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-bottom: -4rem;
+}
+
+.lovePhotos img {
+  height: 30rem;
+  border-radius: 16px;
+}
+.plus {
+  align-self: center;
+}
+.squarePhoto {
+  object-fit: cover;
+  -webkit-mask-image: url("../public/square-fill.svg");
+  mask-image: url("../public/square-fill.svg");
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.heartPhoto {
+  object-fit: cover;
+  -webkit-mask-image: url("../public/heart-fill.svg");
+  mask-image: url("../public/heart-fill.svg");
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
