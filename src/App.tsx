@@ -2,8 +2,6 @@ import usPicture from "./assets/us.jpg";
 import hePicture from "./assets/he.jpg";
 import shePicture from "./assets/she.jpg";
 
-import { Plus } from "@phosphor-icons/react";
-
 import styles from "./App.module.css";
 import Timer from "./components/Timer";
 
